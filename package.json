@@ -1,0 +1,19 @@
+{
+  "name": "api-restfull-node-mongo",
+  "version": "1.0.0",
+  "description": "API RESTful de maratones con Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "restart": "nodemon server.js"
+  },
+  "author": "Brayan Castillo <bhcastillo@uniboyaca.edu.co>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18"
+  }
+}
